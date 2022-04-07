@@ -21,7 +21,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {  
+  container: {
     paddingTop: Platform.OS === 'ios' ? spacing.md : spacing.lg,
     flex: 1,
     backgroundColor: colors.darkBlue,
